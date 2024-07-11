@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+}
+
+#root {
+    width: 25%;
+    margin: auto;
+    background-color: aliceblue;
+}
