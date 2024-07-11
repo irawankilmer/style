@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+#main {
+    background-color: darkgray;
+}
+
+h1 {
+    color: red;
+}
+
+p, h2 {
+    color: green;
+}
+
+li {
+    list-style-type: none;
+}
+
+li.special {
+    color: orange;
+    font-weight: bold;
+}
+
+.special-global {
+    color: cadetblue;
+}
+
+p em {
+    background-color: green;
+    color: white;
+}
+
+h3 + p {
+    background-color: darkgray;
+    color: orange;
+}
+
+h4 + p {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    transform: rotate(0.8turn);
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+p[title="pragos"] {
+    background-color: black;
+    color: white;
+}
