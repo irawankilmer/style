@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: "JetBrains Mono", monospace;
+}
+
+:root {
+    --warna-satu: #FFF6E9;
+    --warna-dua: #604CC3;
+    --warna-tiga: #80C4E9;
+    --warna-empat: #FF7F3E;
+}
+
+body {
+    background-color: var(--warna-satu);
+    width: 80%;
+}
+
+header.properties {
+    background-color: var(--warna-dua);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+header.properties h1 {
+    padding: 15px;
+}
+
+section.fonts {
+    background-color: var(--warna-dua);
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+header.fonts {
+    padding: 10px;
+    text-align: center;
+}
+
+.fonts-dua {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fonts-dua>* {
+    flex: 1 1 25%;
+}
+
+article.fonts {
+    background-color: var(--warna-tiga);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header.h3 {
+    background-color: var(--warna-empat);
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+p.sans {
+    font-family: sans-serif;
+}
+
+p.Bahnschrift {
+    font-family: Bahnschrift;
+}
+
+p.px {
+    font-size: 22px;
+}
+
+p.em {
+    font-size: 2em;
+}
+
+p.rem {
+    font-size: 2rem;
+}
+
+p.vw {
+    font-size: 8vw;
+}
